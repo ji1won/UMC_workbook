@@ -31,6 +31,16 @@
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/0b8fbf21-512b-4e37-9996-1dc62f8e17fb)
 
 # 6week
+**실습 CHECK LIST**
+- [x]  상세 페이지 컴포넌트 생성하고 라우팅하기
+    - [x]  주소가 위 영상처럼 영화의 제목이 보여지도록 구성하기
+- [x]  네비게이트 훅 활용하여 영화 페이지에서  정보를 상세 페이지에 전달하기
+- [x]  이벤트와 useNavigate Hook 활용해서 클릭하면 정보가 넘어가도록 만들기
+- [x]  useParams, useLocation을 활용하여 상세페이지에서 전달 받은 정보 활용하기
+      
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/391ac077-abb7-4a0e-a53d-498ca2f8ebeb)
+
+
 **미션 CHECK LIST**
 
 - [x]  useState활용해서 로그인 ↔ 로그아웃 버튼 왔다 갔다 하게 하기
