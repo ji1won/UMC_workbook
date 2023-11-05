@@ -30,3 +30,13 @@
 
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/0b8fbf21-512b-4e37-9996-1dc62f8e17fb)
 
+# 6week
+**미션 CHECK LIST**
+
+- [x]  useState활용해서 로그인 ↔ 로그아웃 버튼 왔다 갔다 하게 하기
+- [x]  `NotFound` 페이지 컴포넌트 활용하기
+- [x]  실습 때 활용한 Navigate Hook 활용해보기
+- [x]  이벤트 활용해서 클릭 시 메인 페이지로 돌아갈 수 있게 만들기
+      
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/23166efb-ebf3-4623-83c6-e88467f3fae5)
+
