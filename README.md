@@ -1,4 +1,4 @@
-# 🍥UMC WORKBOOK 실습 및 미션
+# 🍥UMC WORKBOOK 실습 및 미션 모음
 
 # 5week
 **실습 CHECK LIST**
@@ -16,3 +16,17 @@
 
 
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/943f5a7f-1ff2-479c-b7b8-d5eb21e4b5c8)
+
+**미션 CHECK LIST**
+
+- [x]  `LoginControl.jsx` 생성하기
+- [x]  `this.state` 활용해서 `isLoggedIn` 의 값으로 상태 관리할 수 있도록 만들기
+- [x]  `handleLoginClick`, `handleLogoutClick` 이용해서 상태 설정하기
+- [x]  렌더링 메서드 활용하기
+- [x]  상태에 따른 환영 문구(로그인 상태, 로그아웃 상태), 로그인 버튼, 로그아웃 버튼 함수 구성하기
+- [x]  `inline if문` 활용해서 상태에 따른 로그인 ↔ 로그아웃, 환영 문구 변경 구현하기
+- [x]  CSS 구성하기
+- [x]  `Header` 컴포넌트에 `LoginControl` 렌더링하기
+
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/0b8fbf21-512b-4e37-9996-1dc62f8e17fb)
+
