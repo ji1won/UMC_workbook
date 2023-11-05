@@ -1,6 +1,6 @@
-# UMC_workbook_5week
 
-**CHECK LIST**
+# UMC_workbook_5week
+**실습 CHECK LIST**
 
 - [x]  다양한 페이지 컴포넌트 만들고 리액트 라우팅 설정하기
     - 생성할 페이지 컴포넌트 종류
