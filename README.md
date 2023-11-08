@@ -61,4 +61,10 @@
 
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/64752c67-2b31-4653-888c-c444f25746ca)
 
+**미션 CHECK LIST**
+
+tvDummy.js 파일을 추가해서 Tv 프로그램을 클릭했을 때 Tv 리스트가 나오도록 만들어봅시다.
+가능한 새로운 컴포넌트를 만들지 않고, 기존에 만들었던 것을 활용해주세요!
+
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/bc012456-4811-4016-9f66-9518bb32df67)
 
