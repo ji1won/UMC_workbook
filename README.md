@@ -111,3 +111,4 @@ https://github.com/silvarge/UMC_WEB
     - 로그인 성공 시
         - code : 200
         - useInfo = object, user의 데이터가 넘어올 것
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/bcdd3a73-5e28-425f-8a98-5284fed4cf3d)
