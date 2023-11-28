@@ -68,3 +68,46 @@ tvDummy.js 파일을 추가해서 Tv 프로그램을 클릭했을 때 Tv 리스�
 
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/bc012456-4811-4016-9f66-9518bb32df67)
 
+# 8week
+**실습 CHECK LIST**
+
+- [x]  Open Weather Map API 가입 후 API_KEY 발급 받기
+- [x]  도시명과 API_KEY를 통해 날씨 정보를 받아올 수 있도록 하는 url 선언하기
+- [x]  axios라이브러리 다운 받기
+- [x]  location(city name) 입력 받을 입력창 만들기
+- [x]  해당 입력창을 통해 Data를 받아올 수 있도록 코드 구성하기
+- [x]  input에 입력된 값이 Data에 있는 것과 동일할 경우 받아오고 싶은 data(도시명, 온도, 날씨)를 보여주도록 코드 작성하기
+- [x]  화씨 온도로 받아온 data 섭씨 온도로 변환해주기
+- [ ]  
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/a6964940-e8fc-442c-9de4-3e4a0b1e0f33)
+
+**미션 CHECK LIST**
+
+https://github.com/silvarge/UMC_WEB
+
+위의 서버를 활용하여 다음의 실습 목표를 완수할 수 있는 로그인 페이지를 구성해주세요!
+
+- **실습 목표**
+    - Redux를 활용할 것
+    - 아이디와 비밀번호를 *state*, *input*으로 관리할 것
+    - 로그인 버튼 클릭 시 빈 값이 하나라도 있다면, `alert()`로 *submit event*를 종료시킬 것
+    - *axios*를 통신하는 동안 버튼이 클릭되지 않도록 할 것
+    - *axios* 통신이 끝난 후 1.5초까지 'Loading...'을 출력할 것
+- **유저 정보**
+    
+    ```
+    id: 'umcweb',
+    pw: '1234'
+    ```
+    
+- **API 명세서**
+    - 반드시 body(obj)를 같이 보내줄 것.
+        - body.id : user.id
+        - body.pw : user.pw
+    - 로그인 실패시
+        - code : 400 = body 값이 비어 있을 때
+        - code : 401 = 존재하지않는 id일 때
+        - code : 402 = 비밀번호가 틀렸을 때
+    - 로그인 성공 시
+        - code : 200
+        - useInfo = object, user의 데이터가 넘어올 것
