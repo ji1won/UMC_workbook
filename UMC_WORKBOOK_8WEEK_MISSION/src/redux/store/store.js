@@ -1,9 +1,11 @@
+// redux/store.js
 import { configureStore } from "@reduxjs/toolkit";
-import userSlice from "./userSlice";
+import login from "../reducers/authSlice";
 
 export default configureStore({
   reducer: {
-    user: userSlice,
+    auth: login,
+    
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
