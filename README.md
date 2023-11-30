@@ -112,3 +112,13 @@ https://github.com/silvarge/UMC_WEB
         - code : 200
         - useInfo = object, user의 데이터가 넘어올 것
 ![image](https://github.com/ji1won/UMC_workbook/assets/141638383/bcdd3a73-5e28-425f-8a98-5284fed4cf3d)
+
+# 9week
+
+9주차 미션으로 구현한 로그인 페이지에서 로그인 버튼을 눌렀을 때
+
+서버로부터 아래의 토큰과 id를 받아와 이를 아래 사진과 같이 로컬 스토리지에 저장할 수 있도록 코드를 짜고 해당 파일을 깃허브에 올려주세요!
+
+아래 사진과 같이 로컬스토리지에 토큰이 저장되어 있는 모습 또한 캡처하여 아래에 제출해주세요!
+![image](https://github.com/ji1won/UMC_workbook/assets/141638383/61220ca9-8af7-4c06-94f9-31c8030e6ed1)
+
