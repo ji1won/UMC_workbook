@@ -56,6 +56,7 @@ const Login = () => {
           setTimeout(() => setMsg(''), 1500); // Loading 메시지 1.5초 후 삭제
 
           const code = res.status;
+          
           if (code === 400) {
             alert('비어있는 내용입니다.');
           } else if (code === 401) {
@@ -64,8 +65,10 @@ const Login = () => {
             alert('비밀번호가 일치하지 않습니다.');
           } else if (code === 200) {
             console.log("로그임 됨");
-            dispatch(performLogin(res.data.userInfo)); // 로그인 성공 시 Redux dispatch
+            dispatch(performLogin(res.data.result.userId)); // 로그인 성공 시 Redux dispatch
             alert('로그인되었습니다.');
+            //console.log(res.data)->이렇게 하면 서버에서 받은 정보 확인 가능
+            //console.log(res.data.result.userId)//오오 이제 제대로 나온다ㅠㅠ
             navigate('/');
 
           }

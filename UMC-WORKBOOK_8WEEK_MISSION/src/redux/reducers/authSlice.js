@@ -3,9 +3,10 @@ import { createSlice } from "@reduxjs/toolkit";
 export const login = createSlice({
   name: "auth",
   initialState: {
-    userInfo: null,
+    userInfo: ' ',
     error: null,
     loading: false,
+    isLoggedIn: false,
   },
   reducers: {
     loginUser: (state, action) => {
@@ -17,6 +18,7 @@ export const login = createSlice({
     loginFailure: (state, action) => {
       state.error = action.payload;
       state.loading = false;
+      state.isLoggedIn = false;
     },
     setLoading: (state) => {
       state.loading = true;
@@ -25,6 +27,7 @@ export const login = createSlice({
       state.userInfo = null;
       state.error = null;
       state.loading = false;
+      state.isLoggedIn = false;
     },
 
   },

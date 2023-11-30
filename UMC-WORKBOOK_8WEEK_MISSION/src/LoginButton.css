@@ -1,0 +1,35 @@
+.loginButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loggedInContainer,
+  .loggedOutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px; /* Optional: Adjust margin between elements */
+  }
+  
+  .loggedInText,
+  .loggedOutText {
+    margin-left: 15px; /* Optional: Adjust margin between text and button */
+  }
+  
+  .logoutButton,
+  .loginLinkButton {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover,
+  .loginLinkButton:hover {
+    background-color: white;
+    color: black;
+  }
+  
