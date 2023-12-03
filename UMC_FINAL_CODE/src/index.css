@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-color: rgba(22, 39, 87, 0.774);
+}
+
+.root-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* header 시작 */
+.header-container {
+    background-color: rgba(3,37,65,1);
+}
+
+.header-wrap {
+    max-width: 1400px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-left-wrap {
+    display: flex;
+}
+
+.header-left-wrap ul {
+    display: flex;
+    margin-left: 16px;
+}
+
+.header-left-wrap li {
+    padding: 8px;
+    margin-right: 14px;
+}
+
+.header-nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+/* header 끝 */
+
+.page-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:  0;
+}
+
+  
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-container {
+    width: 250px;
+    margin: 16px;
+    background-color: #373b69;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position: relative; /* 상대 위치 설정 */
+  }
+
+  .movie-poster img {
+    max-width: 100%;
+    display: block;
+  }
+  
+
+.movie-container img {
+    max-width: 100%;
+}
+
+.movie-info {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.movie-info h4 {
+    margin: 0;
+}
+.movie-overview {
+    position: absolute; /* 절대 위치 설정 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none; /* 초기에 숨김 */
+    color: rgb(210, 208, 208);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* 내용이 넘치면 숨김 처리 */
+    text-overflow: ellipsis; /* 말줄임표 적용 */
+  }
+  
+  .movie-container:hover .movie-overview {
+    display: block; /* 호버 시 나타남 */
+  }
+  /* movie detail*/
+
+  .movie-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(22, 39, 87, 0.774);
+  }
+  
+  .poster {
+    width: 50%;
+    max-width: 80vw; /* 창 너비의 80%로 설정 */
+    max-height: 80vh; /* 창 높이의 80%로 설정 */
+    object-fit: cover;
+    margin: 10%;
+  }
+  
+  .movie-details {
+    display: flex;
+    color: white;
+    font-size: 2vw; /* 창 너비에 따라 크기 조정 */
+    line-height: 1.5;
+    margin-right: 10%;
+  }
+  
+  /* 미디어 쿼리를 사용하여 화면 크기에 따라 스타일 조정 */
+  @media (max-width: 768px) {
+    .poster {
+      width: 80%; /* 768px 이하일 때 너비를 80%로 설정 */
+      margin: 5%;
+    }
+  
+    .movie-details {
+      font-size: 3vw; /* 768px 이하일 때 글꼴 크기를 3vw로 설정 */
+      margin-right: 5%;
+    }
+  }
