@@ -1,5 +1,7 @@
 # 🍥UMC WORKBOOK 실습 및 미션 모음
 
+https://www.notion.so/makeus-challenge/1a4ec32c80774683964631d1baa92a38?pvs=4
+
 # 5week
 **실습 CHECK LIST**
 
